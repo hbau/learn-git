@@ -1,4 +1,4 @@
-a = input("Please inpute your name")
+a = input("Please input your name. ")
 if a == "Ingrid":
     print("Hello Ingrid")
 else:
