@@ -1,5 +1,8 @@
-a = input("Please input your name: ")
-if a == "Ingrid":
-    print("Hello Ingrid")
+import sys
+
+if len(sys.argv) == 1:
+    name = input("Please input your name: ")
 else:
-    print("Hello Duncan")
+    name = sys.argv[1]
+
+print("Hello " + name)
